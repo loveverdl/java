@@ -1,5 +1,7 @@
 package shixun.livestreet.db.pojo;
 
+import java.sql.Time;
+
 @SuppressWarnings("unused")
 public class Commercial {
 
@@ -14,4 +16,8 @@ public class Commercial {
 	private String kind2;
 	private String region1;
 	private String region2;
+	private double longitude;
+	private double latitude;
+	private Time openTime;
+	private Time closeTime;
 }

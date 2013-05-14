@@ -11,7 +11,7 @@ public interface AccountService {
 
 	public List<CouponInfoOfAccount> showMyCoupons(int account_id);
 
-	public void addCoupon(Coupon coupon);
+	public void addCoupon(Coupon coupon, int account_id);
 
 	public List<Association> getAssociations(int accountId);
 

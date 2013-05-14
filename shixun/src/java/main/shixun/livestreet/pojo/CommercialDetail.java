@@ -9,4 +9,5 @@ public class CommercialDetail {
 	private String[] facility;
 	private Coupon coupon;
 	private PictureSetDetail[] pictureSetDetail;
+	private Byte[] cover;
 }
