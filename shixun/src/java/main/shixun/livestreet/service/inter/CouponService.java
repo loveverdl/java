@@ -7,7 +7,7 @@ import shixun.livestreet.pojo.CouponInfo;
 
 public interface CouponService {
 
-	public Coupon getDetail(int couponId);
+	public CouponInfo getDetail(int couponId);
 
 	public List<CouponInfo> recommend();
 

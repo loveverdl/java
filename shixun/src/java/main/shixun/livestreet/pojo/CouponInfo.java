@@ -1,9 +1,9 @@
 package shixun.livestreet.pojo;
 
-import java.io.File;
+import shixun.livestreet.db.pojo.Coupon;
 
 public class CouponInfo {
 
-	private CouponInfo ci;
-	private File file;
+	private Coupon coupon;
+	private Byte[] cover;
 }

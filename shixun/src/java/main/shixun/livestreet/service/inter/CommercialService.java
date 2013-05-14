@@ -5,6 +5,7 @@ import java.util.List;
 import shixun.livestreet.db.pojo.Coupon;
 import shixun.livestreet.db.pojo.Picture;
 import shixun.livestreet.pojo.CommercialDetail;
+import shixun.livestreet.pojo.Filter;
 import shixun.livestreet.pojo.PictureDetail;
 
 public interface CommercialService {
@@ -23,5 +24,5 @@ public interface CommercialService {
 	 *            <tt>String</tt>
 	 * @return
 	 */
-	public List<CommercialDetail> filterCommercial(Object... objects);
+	public List<CommercialDetail> filterCommercial(Filter filter);
 }
